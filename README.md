@@ -38,5 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 Tech Stack used:
 
 React - Next Js
+
 Tailwind 
-ShadCn UiS
+
+ShadCn Ui
