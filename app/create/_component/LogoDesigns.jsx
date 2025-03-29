@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import HeadingDesc from './HeadingDesc'
 import Lookup from '@/app/data/Lookup'
 import Image from 'next/image'
-import { assets } from '@/assets/assets'
 import LogoDesign from '@/app/data/LogoDesign'
 
 const LogoDesigns = ({onHandleInputChange}) => {
