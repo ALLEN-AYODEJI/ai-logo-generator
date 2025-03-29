@@ -8,6 +8,7 @@ export default{
     LogoTitleDesc:"Enter your brand name to generate a logo",
     LogoDescTitle:"Describe your Logo Vision",
     LogoDescDesc:"Share your ideas, themes, or inspiration to help us create the perfect logo for you",
+    LogoDescPlaceholder:"Describe how you want your logo",
     LogoIdeaTitle:"Select your Design Idea",
     LogoIdeaDesc:"Choose the design idea that best fits your brand",
     LogoDesignTitle:"Choose your Logo Design",

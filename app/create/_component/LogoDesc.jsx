@@ -9,7 +9,7 @@ const LogoDesc = ({onHandleInputChange}) => {
       title={Lookup.LogoDescTitle}
       description={Lookup.LogoDescDesc}/>
 
-      <input type='text' placeholder={Lookup.InputTitlePlaceholder}
+      <input type='text' placeholder={Lookup.LogoDescPlaceholder}
              className='p-6 border rounded-lg mt-5 w-full'
              onChange={(e) => onHandleInputChange(e.target.value)}/>
     </div>
