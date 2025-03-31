@@ -4,8 +4,8 @@ import Lookup from '@/app/data/Lookup'
 import Image from 'next/image'
 import LogoDesign from '@/app/data/LogoDesign'
 
-const LogoDesigns = ({onHandleInputChange}) => {
-  const [seletedOption, setSelectedOption] = useState()
+const LogoDesigns = ({onHandleInputChange, formData}) => {
+  const [seletedOption, setSelectedOption] = useState(formData?.design?.title)
   return (
     <div className='my-10'>
       <HeadingDesc

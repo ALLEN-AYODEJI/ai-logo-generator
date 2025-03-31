@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+'use client'
+import React, {  useState } from 'react'
 import HeadingDesc from './HeadingDesc'
 import Lookup from '@/app/data/Lookup'
 import { useSearchParams } from 'next/navigation'

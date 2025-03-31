@@ -3,8 +3,8 @@ import HeadingDesc from './HeadingDesc'
 import Lookup from '@/app/data/Lookup'
 import Colors from '@/app/data/Colors'
 
-const LogoColorPalette = ({onHandleInputChange}) => {
-  const [selectedColor, setSelectedColor] = useState()
+const LogoColorPalette = ({onHandleInputChange, formData}) => {
+  const [selectedColor, setSelectedColor] = useState(formData?.palette)
 
   return (
     <div className='my-10'>
