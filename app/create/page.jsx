@@ -10,7 +10,7 @@ import LogoIdea from './_component/LogoIdea'
 
 const CreateLogo = () => {
   const [step, setStep] = useState(1)
-  const [formData, setFormData] = useState()
+  const [formData, setFormData] = useState({})
   const onHandleInputChange = (field, value) => {
     setFormData(prev=>({
       ...prev,

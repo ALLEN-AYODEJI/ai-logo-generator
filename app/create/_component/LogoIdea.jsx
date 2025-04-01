@@ -11,12 +11,12 @@ const LogoIdea = () => {
 
   },[])
 
-  const generateLogoDesignIdea = () => {
+  const generateLogoDesignIdea = async () => {
     const PROMPT = Prompt.DESIGN_IDEA_PROMPT
-    .replace('{logotype}', FormData?.design?.title)
-    .replace('{logoTitle}', FormData.title)
-    .replace('{logoDesc}', FormData.desc)
-    .replace('{logoPrompt}', FormData.design?.prompt)
+    .replace('{logotype}', formData?.design.title)
+    .replace('{logoTitle}', formData.title)
+    .replace('{logoDesc}', formData.desc)
+    .replace('{logoPrompt}', formData.design.prompt)
     console.log(PROMPT)
     // const result=await axios.post('/api/ai-design-ideas',{
     //   prompt:

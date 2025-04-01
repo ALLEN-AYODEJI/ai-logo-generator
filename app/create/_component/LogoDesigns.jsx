@@ -19,7 +19,7 @@ const LogoDesigns = ({onHandleInputChange, formData}) => {
           onHandleInputChange(design)
         }}
           
-          className={`p-1 hover:border-2 border-gray-300 rounded-xl cursor-pointer ${seletedOption===design.title && 'border-2 rounded-xl border-red-500'}`}>
+          className={`p-1 hover:border-2 border-gray-300 rounded-xl cursor-pointer ${seletedOption==design?.title && 'border-2 rounded-xl border-red-500'}`}>
           
             <Image src={design.image} alt={design.title} width={300}
             height={

@@ -11,7 +11,7 @@ const LogoTitle = ({onHandleInputChange}) => {
   return (
     <div className='my-10'>
       <HeadingDesc
-       title={Lookup.LogoTitle}
+       title={Lookup?.LogoTitle}
        description={Lookup.LogoTitleDesc} />
 
        <input type='text' placeholder={Lookup.InputTitlePlaceholder}
