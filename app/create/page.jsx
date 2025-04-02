@@ -22,15 +22,15 @@ const CreateLogo = () => {
 
   return (
     <div className='mt-28 p-10 border rounded-xl 2xl:mx-72'>
-      {step ==1 ? 
+      {step === 1 ? 
         <LogoTitle onHandleInputChange={(v)=>onHandleInputChange('title', v)} formData={formData} /> :
-        step == 2 ?
+        step === 2 ?
         <LogoDesc onHandleInputChange={(v)=>onHandleInputChange('desc', v)} formData={formData}/> :
-        step == 3 ?
+        step === 3 ?
         <LogoColorPalette onHandleInputChange={(v)=>onHandleInputChange('palette', v)} formData={formData}/> :
-        step == 4 ?
+        step === 4 ?
         <LogoDesigns onHandleInputChange={(v)=>onHandleInputChange('design', v)} formData={formData}/> :
-        step == 5 ?
+        step === 5 ?
         <LogoIdea 
         formData={formData}
         onHandleInputChange={(v)=>onHandleInputChange('idea', v)}/> :
