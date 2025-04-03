@@ -15,4 +15,29 @@ export default{
     LogoDesignDesc:"Select the design that best fits your brand",
     LogoColorPaletteTitle:"Choose your Color Palette",
     LogoColorPaletteDesc:"Select the color palette that best fits your brand",
+    pricingOption : [
+        {
+            title: 'Free',
+            // icon: 
+            features: [
+                'Generate unlimited logos for free',
+                'Longer Wait times',
+                'Wait time: 30 seconds to 3 minutes',
+                'Limited Design Options and Quality',
+            ],
+            button:"Genearate Free Logo",
+        },
+
+        {
+            title: 'Premium',
+            // icon:
+            features: [
+                'Generate unlimited logos',
+                'Shorter Wait times',
+                'Wait time: Less than 10 seconds',
+                'Only 5 Credits',
+            ],
+            button:"Genearate For 1 Credit",
+        }
+    ]
 }

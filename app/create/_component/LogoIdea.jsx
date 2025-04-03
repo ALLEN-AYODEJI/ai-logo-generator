@@ -8,7 +8,7 @@ import { Loader2Icon } from 'lucide-react'
 const LogoIdea = ({formData, onHandleInputChange}) => {
   const [ideas, setIdeas] = useState();
   const [loading, setLoading] = useState(false)
-  const [seletedOption, setSelectedOption] = useState()
+  const [seletedOption, setSelectedOption] = useState(formData?.idea)
   useEffect(() => {
     generateLogoDesignIdea();
 
