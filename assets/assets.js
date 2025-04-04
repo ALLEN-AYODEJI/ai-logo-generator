@@ -24,10 +24,12 @@ import three_dots from "./three_dots.svg";
 import new_icon from "./new_icon.svg";
 import cartoon from "./cartoon.png";
 import app from "./3dimage.png";
-import black from "./blacknwhite.png"
-import luxury from "./luxury.png"
-import mascot from "./mascot.png"
-import vintage from "./vintage.png"
+import black from "./blacknwhite.png";
+import luxury from "./luxury.png";
+import mascot from "./mascot.png";
+import vintage from "./vintage.png";
+import free from "./free_icon.png";
+import premium from "./premium_icon.png";
 
 export const assets = {
   arrow_icon,
@@ -60,4 +62,6 @@ export const assets = {
   luxury,
   mascot,
   vintage,
+  free,
+  premium,
 };

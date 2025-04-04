@@ -1,3 +1,4 @@
+import { assets } from "@/assets/assets";
 
 export default{
    HeroHeading:"AI Logo Maker",
@@ -15,10 +16,12 @@ export default{
     LogoDesignDesc:"Select the design that best fits your brand",
     LogoColorPaletteTitle:"Choose your Color Palette",
     LogoColorPaletteDesc:"Select the color palette that best fits your brand",
+    LogoPricingModelTitle:"Select your AI model Plan",
+    LogoPricingModelDesc:"Generate Unlimited Logos at the go",
     pricingOption : [
         {
             title: 'Free',
-            // icon: 
+            icon: assets.free,
             features: [
                 '•Generate unlimited logos for free',
                 '•Longer Wait times',
@@ -30,7 +33,7 @@ export default{
 
         {
             title: 'Premium',
-            // icon:
+            icon: assets.premium,
             features: [
                 '•Generate unlimited logos',
                 '•Shorter Wait times',

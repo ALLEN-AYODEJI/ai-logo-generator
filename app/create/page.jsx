@@ -7,6 +7,7 @@ import LogoDesc from './_component/LogoDesc'
 import LogoColorPalette from './_component/LogoColorPalette'
 import LogoDesigns from './_component/LogoDesigns'
 import LogoIdea from './_component/LogoIdea'
+import PricingModel from './_component/PricingModel'
 
 const CreateLogo = () => {
   const [step, setStep] = useState(1)
@@ -34,6 +35,10 @@ const CreateLogo = () => {
         <LogoIdea 
         formData={formData}
         onHandleInputChange={(v)=>onHandleInputChange('idea', v)}/> :
+        step === 6 ?
+        <PricingModel 
+        formData={formData}
+        onHandleInputChange={(v)=>onHandleInputChange('pricing', v)}/>:
         null
       }
 
