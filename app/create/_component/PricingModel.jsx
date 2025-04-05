@@ -38,7 +38,7 @@ const PricingModel = ({formData}) => {
             <Button className="mt-5">
             {pricing.button}
             </Button> : 
-            <SignInButton mode='modal' forceRedirectUrl={'/generate-logo?type='+pricing.title}>
+            <SignInButton mode='modal' forceRedirectUrl={'./generate-logo?type='+pricing.title}>
               <Button className="mt-5">
                 {pricing.button}
               </Button>
